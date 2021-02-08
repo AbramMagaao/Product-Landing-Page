@@ -1,0 +1,131 @@
+<script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Product Landing Page</title>
+
+	<link rel="stylesheet" href="styles.css">
+
+	<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@800&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Hind&display=swap" rel="stylesheet">
+</head>
+<body>
+	<div id="page-wrapper">
+  <header id="header">
+    <div class="logo">
+      <img
+        id="header-img"
+        src="img/logo.png"
+        alt="PC Store logo"
+      />
+    </div>
+
+    <nav id="nav-bar">
+      <ul>
+        <li><a class="nav-link" href="#products">Products</a></li>
+        <li><a class="nav-link" href="#bestseller">Best Seller</a></li>
+        <li><a class="nav-link" href="#faqs">FAQs</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <div class="container"></div>
+
+  <section id="hero">
+    <h2>All your paperclip needs in one place</h2>
+    <form id="form" action="https://www.freecodecamp.com/email-submit">
+      <input
+        name="email"
+        id="email"
+        type="email"
+        placeholder="Enter your email address"
+        required
+      />
+      <input id="submit" type="submit" value="Get Started" class="btn" />
+    </form>
+  </section>
+
+  <div class="container">
+    <section id="products">
+      <div class="product" id="tenor">
+        <div class="level">Red Paperclip</div>
+        <h2>$5</h2>
+        <img src="img/redPC.jpg" class="paperclipimg" alt="red-paperclip">
+        <ol>
+          <li>80 pcs</li>
+          <li>Just Red</li>
+          <li>That's literally it</li>
+          <li>Buy me pls</li>
+        </ol>
+        <button class="btn">Select</button>
+      </div>
+      <div class="product" id="bass">
+        <div class="level">Green Paperclip</div>
+        <h2>$7</h2>
+        <img src="img/greenPC.jpg" class="paperclipimg" alt="green-paperclip">
+        <ol>
+          <li>Same same but color green</li>
+          <li>It's priced higher just because</li>
+          <li>Buy me!</li>
+        </ol>
+        <button class="btn">Select</button>
+      </div>
+      <div class="product" id="valve">
+        <div class="level">Blue Paperclip</div>
+        <h2>$10</h2>
+        <img src="img/bluePC.jpg" class="paperclipimg" alt="blue-paperclip">
+        <ol>
+          <li>Blue color this time</li>
+          <li>Again, nothing new</li>
+          <li>Like the green one but higher-priced</li>
+          <li>BUY ME</li>
+        </ol>
+        <button class="btn">Select</button>
+      </div>
+    </section>
+
+    <section id="bestseller">
+    	<span id="bestsellingbrand"><p><div id="brand">Best Selling Brand</div> <i>ACCO Paperclips</i></p></span>
+      	<iframe id="video" height="415" src="https://www.youtube.com/embed/gsdYcJTSSzo" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </section>
+    <section id="faqs">
+    	<h2>FAQs</h2>
+      <div class="grid">
+        <div class="desc">
+          <h2 class="question">Why is there even a store that only sells paper clips?</h2>
+          <p>
+            Why are you even existing when your life is so sad that you're shopping in a store that only sells paper clips?
+          </p>
+        </div>
+      </div>
+      <div class="grid">
+        <div class="desc">
+          <h2 class="question">Why are the other paperclips more expensive when their differences are just their colors?</h2>
+          <p>
+            ...
+          </p>
+        </div>
+      </div>
+      <div class="grid">
+        <div class="desc">
+          <h2 class="question">This website is pure bullcrap</h2>
+          <p>
+            Is that even a question? Go buy somewhere else then.
+          </p>
+        </div>
+      </div>
+    </section>
+    <footer>
+      <ul>
+        <li><a href="#">Privacy</a></li>
+        <li><a href="#">Terms</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+      <span>Copyright 2021, PC Store</span>
+    </footer>
+  </div>
+</div>
+
+</body>
+</html>
